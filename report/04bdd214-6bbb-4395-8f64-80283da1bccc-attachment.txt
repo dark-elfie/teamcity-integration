@@ -1,0 +1,27 @@
+[32mINFO    [0m WDM:logger.py:12 
+
+[32mINFO    [0m WDM:logger.py:12 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:12 Current google-chrome version is 93.0.4577
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 93.0.4577
+[32mINFO    [0m WDM:logger.py:12 Driver [C:\Users\Sara\.wdm\drivers\chromedriver\win32\93.0.4577.63\chromedriver.exe] found in cache
+[32mINFO    [0m pages.log_in_page:log_in_page.py:16 Wprowadzam login skowalska@x-one.com.pl
+[32mINFO    [0m pages.log_in_page:log_in_page.py:23 Wprowadzam hasło 123456789
+[32mINFO    [0m pages.log_in_page:log_in_page.py:30 Loguję się
+[32mINFO    [0m pages.side_bar:side_bar.py:34 Przejdz do 'Awizacje'
+[32mINFO    [0m pages.advices_page:advices_page.py:124 Dodawanie awizacji
+[32mINFO    [0m pages.advices_page:advices_page.py:130 Dodawanie odbiorcy
+[32mINFO    [0m pages.advices_page:advices_page.py:162 Dodawanie nadawcy
+[32mINFO    [0m pages.advices_page:advices_page.py:194 Przejscie do nastepnej strony (dane przewoznika)
+[32mINFO    [0m pages.advices_page:advices_page.py:199 Dodawanie przewoznika
+[32mINFO    [0m pages.advices_page:advices_page.py:212 Dodawanie danych przewozu
+[32mINFO    [0m pages.advices_page:advices_page.py:375 Przejscie do nastepnej strony (podsumowanie)
+[32mINFO    [0m pages.advices_page:advices_page.py:493 Zapisanie awizacji
+[32mINFO    [0m pages.advices_page:advices_page.py:532 Wejscie w pojedyncza awizacje
+[32mINFO    [0m pages.advices_page:advices_page.py:769 Pobranie numeru utworzonej AW
+[32mINFO    [0m pages.advices_page:advices_page.py:771 AW/004793
+[32mINFO    [0m pages.side_bar:side_bar.py:46 Przejdz do 'Planner'
+[32mINFO    [0m pages.planner_page:planner_page.py:212 Sprawdzenie widocznosci utworzonej aw w planerze
+[32mINFO    [0m pages.side_bar:side_bar.py:28 Otworz/zamknij menu boczne
+[32mINFO    [0m pages.side_bar:side_bar.py:34 Przejdz do 'Awizacje'
+[32mINFO    [0m pages.advices_page:advices_page.py:507 Usuwanie awizacji
+[32mINFO    [0m pages.advices_page:advices_page.py:526 Potwierdzenie usuniecia awizacji

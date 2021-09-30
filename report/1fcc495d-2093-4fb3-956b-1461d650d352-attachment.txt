@@ -1,0 +1,13 @@
+[32mINFO    [0m WDM:logger.py:12 
+
+[32mINFO    [0m WDM:logger.py:12 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:12 Current google-chrome version is 93.0.4577
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 93.0.4577
+[32mINFO    [0m WDM:logger.py:12 Driver [C:\Users\Sara\.wdm\drivers\chromedriver\win32\93.0.4577.63\chromedriver.exe] found in cache
+[32mINFO    [0m pages.log_in_page:log_in_page.py:16 Wprowadzam login skowalska@x-one.com.pl
+[32mINFO    [0m pages.log_in_page:log_in_page.py:23 Wprowadzam hasło 123456789
+[32mINFO    [0m pages.log_in_page:log_in_page.py:30 Loguję się
+[32mINFO    [0m pages.side_bar:side_bar.py:76 Przejdz do 'Szablony'
+[32mINFO    [0m pages.payoffs_page:payoffs_page.py:56 Przejscie do tworzenia nowego szablonu
+[32mINFO    [0m pages.payoffs_page:payoffs_page.py:63 Uzupelnianie danych szablonu
+[32mINFO    [0m pages.payoffs_page:payoffs_page.py:117 Zapisanie szablonu
