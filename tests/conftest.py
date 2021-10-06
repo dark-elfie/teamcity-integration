@@ -9,7 +9,7 @@ from utils.driver_factory import DriverFactory
 @pytest.fixture()
 def setup(request):
     global driver
-    driver = DriverFactory.get_driver("chrome")
+    driver = DriverFactory.get_driver("travis")
     driver.implicitly_wait(15)
     request.cls.driver = driver
     before_failed = request.session.testsfailed
