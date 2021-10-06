@@ -1,5 +1,5 @@
 selenium
 pytest
 webdriver-manager
-allure
+allure-pytest
 pytest-xdist
