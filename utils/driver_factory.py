@@ -16,6 +16,12 @@ class DriverFactory:
             driver = webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=options)
             driver.maximize_window()
             return driver
+        elif browser == "travis":
+            options = webdriver.ChromeOptions()
+            options.add_argument('--no-sandbox')
+            options.add_argument('--headless')
+            options.add_argument('--disable-dev-shm-usage')
+            return webdriver.Chrome(ChromeDriverManager().install(), options=options)
         """elif browser == "remote":
             options = webdriver.ChromeOptions()
             # options.add_argument("start-maximized")
