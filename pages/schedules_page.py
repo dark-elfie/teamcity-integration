@@ -64,9 +64,9 @@ class SchedulePage:
         except NoSuchElementException:
             return False, "Grafik nie wyświetla się na liście"
 
-    @allure.step("Przejście do edytowania grafiku")
+    @allure.step("Przejscie do edytowania grafiku")
     def get_in_edit_schedule(self, ks_number, date, planned_gt):
-        self.logger.info("Przejście do edytowania grafiku")
+        self.logger.info("Przejscie do edytowania grafiku")
         edit_schedule_xpath = "//td[text()='" + ks_number + "']/following-sibling::td[contains(text(), '" + date \
                               + "')]/following-sibling::td[text()='" + planned_gt \
                               + "']/following-sibling::td[@data-label='actions']/a[@title='Edycja']"
